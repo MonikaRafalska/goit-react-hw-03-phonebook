@@ -15,8 +15,6 @@ class App extends React.Component {
       { id: "id-4", name: "Annie Copeland", number: "227-91-26" },
     ],
     filter: "",
-    name: "",
-    number: "",
   };
 
   componentDidMount() {
@@ -83,7 +81,5 @@ class App extends React.Component {
 App.propTypes = {
   contacts: PropTypes.array,
   filter: PropTypes.string,
-  name: PropTypes.string,
-  number: PropTypes.number,
 };
 export default App;
