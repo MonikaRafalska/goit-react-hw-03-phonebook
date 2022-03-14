@@ -70,7 +70,7 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <ContactForm onSubmit={this.addContact} />
-          <Filter value={filter} onChange={this.filterChange}></Filter>
+          <Filter value={filter} onChange={this.filterChange}/>
           <ContactList
             contacts={getContacts}
             onDeleteContact={this.deleteContact}

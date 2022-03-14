@@ -15,7 +15,7 @@ class ContactForm extends React.Component {
     evt.preventDefault();
     const form = evt.target;
     this.props.onSubmit(this.state);
-    this.setState({ name: "", number: "" });
+    // this.setState({ name: "", number: "" });
     form.reset();
   };
 
